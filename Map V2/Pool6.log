@@ -1,0 +1,812 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139203 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 494 texinfos to 296
+Reduced 14 texdatas to 12 (267 bytes to 206)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+1853 faces
+330760 square feet [47629488.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                378/8192         4536/98304    ( 4.6%) 
+brushsides            3253/65536       26024/524288   ( 5.0%) 
+planes                1154/65536       23080/1310720  ( 1.8%) 
+vertexes              2397/65536       28764/786432   ( 3.7%) 
+nodes                 1282/65536       41024/2097152  ( 2.0%) 
+texinfos               296/12288       21312/884736   ( 2.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1853/65536      103768/3670016  ( 2.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1224/65536       68544/3670016  ( 1.9%) 
+leaves                1284/65536       41088/2097152  ( 2.0%) 
+leaffaces             2529/65536        5058/131072   ( 3.9%) 
+leafbrushes            836/65536        1672/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13129/512000      52516/2048000  ( 2.6%) 
+edges                 7457/256000      29828/1024000  ( 2.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            129/32768        1290/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1992/65536        3984/131072   ( 3.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      534964/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1290/393216   ( 0.3%) 
+LDR ambient table     1284/65536        5136/262144   ( 2.0%) 
+HDR ambient table     1284/65536        5136/262144   ( 2.0%) 
+LDR leaf ambient       832/65536       23296/1835008  ( 1.3%) 
+HDR leaf ambient      1284/65536       35952/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211765/0        ( 0.0%) 
+physics               [variable]      139203/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4526
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139203 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 504 texinfos to 304
+Reduced 14 texdatas to 12 (267 bytes to 206)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+1873 faces
+330773 square feet [47631348.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                378/8192         4536/98304    ( 4.6%) 
+brushsides            3253/65536       26024/524288   ( 5.0%) 
+planes                1186/65536       23720/1310720  ( 1.8%) 
+vertexes              2416/65536       28992/786432   ( 3.7%) 
+nodes                 1310/65536       41920/2097152  ( 2.0%) 
+texinfos               304/12288       21888/884736   ( 2.5%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1873/65536      104888/3670016  ( 2.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1224/65536       68544/3670016  ( 1.9%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces             2592/65536        5184/131072   ( 4.0%) 
+leafbrushes            852/65536        1704/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13211/512000      52844/2048000  ( 2.6%) 
+edges                 7508/256000      30032/1024000  ( 2.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            132/32768        1320/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2025/65536        4050/131072   ( 3.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      535028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1290/393216   ( 0.3%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient       856/65536       23968/1835008  ( 1.3%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211765/0        ( 0.0%) 
+physics               [variable]      139203/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4568
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (139235 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 501 texinfos to 301
+Reduced 14 texdatas to 12 (267 bytes to 206)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+1893 faces
+330779 square feet [47632308.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                378/8192         4536/98304    ( 4.6%) 
+brushsides            3253/65536       26024/524288   ( 5.0%) 
+planes                1158/65536       23160/1310720  ( 1.8%) 
+vertexes              2431/65536       29172/786432   ( 3.7%) 
+nodes                 1305/65536       41760/2097152  ( 2.0%) 
+texinfos               301/12288       21672/884736   ( 2.4%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1893/65536      106008/3670016  ( 2.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1222/65536       68432/3670016  ( 1.9%) 
+leaves                1307/65536       41824/2097152  ( 2.0%) 
+leaffaces             2583/65536        5166/131072   ( 3.9%) 
+leafbrushes            849/65536        1698/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            13293/512000      53172/2048000  ( 2.6%) 
+edges                 7563/256000      30252/1024000  ( 3.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            130/32768        1300/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1968/65536        3936/131072   ( 3.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      538532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1290/393216   ( 0.3%) 
+LDR ambient table     1307/65536        5228/262144   ( 2.0%) 
+HDR ambient table     1307/65536        5228/262144   ( 2.0%) 
+LDR leaf ambient       845/65536       23660/1835008  ( 1.3%) 
+HDR leaf ambient      1307/65536       36596/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211765/0        ( 0.0%) 
+physics               [variable]      139235/4194304  ( 3.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4618
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (150387 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 520 texinfos to 314
+Reduced 16 texdatas to 13 (334 bytes to 231)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+2141 faces
+342874 square feet [49373956.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                408/8192         4896/98304    ( 5.0%) 
+brushsides            3470/65536       27760/524288   ( 5.3%) 
+planes                1226/65536       24520/1310720  ( 1.9%) 
+vertexes              2889/65536       34668/786432   ( 4.4%) 
+nodes                 1367/65536       43744/2097152  ( 2.1%) 
+texinfos               314/12288       22608/884736   ( 2.6%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2141/65536      119896/3670016  ( 3.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1348/65536       75488/3670016  ( 2.1%) 
+leaves                1369/65536       43808/2097152  ( 2.1%) 
+leaffaces             2946/65536        5892/131072   ( 4.5%) 
+leafbrushes            950/65536        1900/131072   ( 1.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15050/512000      60200/2048000  ( 2.9%) 
+edges                 8576/256000      34304/1024000  ( 3.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            170/32768        1700/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2472/65536        4944/131072   ( 3.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      782080/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1290/393216   ( 0.3%) 
+LDR ambient table     1369/65536        5476/262144   ( 2.1%) 
+HDR ambient table     1369/65536        5476/262144   ( 2.1%) 
+LDR leaf ambient       872/65536       24416/1835008  ( 1.3%) 
+HDR leaf ambient      1369/65536       38332/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212074/0        ( 0.0%) 
+physics               [variable]      150387/4194304  ( 3.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5375
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (156707 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 547 texinfos to 328
+Reduced 16 texdatas to 13 (334 bytes to 231)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+2235 faces
+343029 square feet [49396252.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0010 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                424/8192         5088/98304    ( 5.2%) 
+brushsides            3589/65536       28712/524288   ( 5.5%) 
+planes                1326/65536       26520/1310720  ( 2.0%) 
+vertexes              3066/65536       36792/786432   ( 4.7%) 
+nodes                 1442/65536       46144/2097152  ( 2.2%) 
+texinfos               328/12288       23616/884736   ( 2.7%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2235/65536      125160/3670016  ( 3.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1397/65536       78232/3670016  ( 2.1%) 
+leaves                1444/65536       46208/2097152  ( 2.2%) 
+leaffaces             3047/65536        6094/131072   ( 4.6%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15722/512000      62888/2048000  ( 3.1%) 
+edges                 8999/256000      35996/1024000  ( 3.5%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            184/32768        1840/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2676/65536        5352/131072   ( 4.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      782896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1290/393216   ( 0.3%) 
+LDR ambient table     1444/65536        5776/262144   ( 2.2%) 
+HDR ambient table     1444/65536        5776/262144   ( 2.2%) 
+LDR leaf ambient       922/65536       25816/1835008  ( 1.4%) 
+HDR leaf ambient      1444/65536       40432/1835008  ( 2.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212074/0        ( 0.0%) 
+physics               [variable]      156707/4194304  ( 3.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5663
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (156707 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 546 texinfos to 332
+Reduced 16 texdatas to 13 (334 bytes to 231)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+2265 faces
+343043 square feet [49398308.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                424/8192         5088/98304    ( 5.2%) 
+brushsides            3589/65536       28712/524288   ( 5.5%) 
+planes                1326/65536       26520/1310720  ( 2.0%) 
+vertexes              3066/65536       36792/786432   ( 4.7%) 
+nodes                 1442/65536       46144/2097152  ( 2.2%) 
+texinfos               332/12288       23904/884736   ( 2.7%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2265/65536      126840/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1422/65536       79632/3670016  ( 2.2%) 
+leaves                1444/65536       46208/2097152  ( 2.2%) 
+leaffaces             3086/65536        6172/131072   ( 4.7%) 
+leafbrushes            980/65536        1960/131072   ( 1.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15965/512000      63860/2048000  ( 3.1%) 
+edges                 9107/256000      36428/1024000  ( 3.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            184/32768        1840/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2676/65536        5352/131072   ( 4.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      782896/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1447/393216   ( 0.4%) 
+LDR ambient table     1444/65536        5776/262144   ( 2.2%) 
+HDR ambient table     1444/65536        5776/262144   ( 2.2%) 
+LDR leaf ambient       922/65536       25816/1835008  ( 1.4%) 
+HDR leaf ambient      1444/65536       40432/1835008  ( 2.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212074/0        ( 0.0%) 
+physics               [variable]      156707/4194304  ( 3.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5746
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\garrysmod\garrysmod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_deathmatch (1349.23 187.57 67.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_02*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (158243 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 553 texinfos to 338
+Reduced 16 texdatas to 13 (334 bytes to 231)
+Writing C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\bin\Pool6.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+reading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+No vis information, direct lighting only.
+2303 faces
+343055 square feet [49399948.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                428/8192         5136/98304    ( 5.2%) 
+brushsides            3622/65536       28976/524288   ( 5.5%) 
+planes                1348/65536       26960/1310720  ( 2.1%) 
+vertexes              3119/65536       37428/786432   ( 4.8%) 
+nodes                 1470/65536       47040/2097152  ( 2.2%) 
+texinfos               338/12288       24336/884736   ( 2.8%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2303/65536      128968/3670016  ( 3.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1445/65536       80920/3670016  ( 2.2%) 
+leaves                1472/65536       47104/2097152  ( 2.2%) 
+leaffaces             3151/65536        6302/131072   ( 4.8%) 
+leafbrushes           1004/65536        2008/131072   ( 1.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16256/512000      65024/2048000  ( 3.2%) 
+edges                 9252/256000      37008/1024000  ( 3.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            191/32768        1910/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2793/65536        5586/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      782916/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1447/393216   ( 0.4%) 
+LDR ambient table     1472/65536        5888/262144   ( 2.2%) 
+HDR ambient table     1472/65536        5888/262144   ( 2.2%) 
+LDR leaf ambient       940/65536       26320/1835008  ( 1.4%) 
+HDR leaf ambient      1472/65536       41216/1835008  ( 2.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      212074/0        ( 0.0%) 
+physics               [variable]      158243/4194304  ( 3.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 5869
+Writing c:\program files (x86)\steam\steamapps\common\garrysmod\bin\Pool6.bsp
+1 second elapsed
